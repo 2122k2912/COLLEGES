@@ -1,0 +1,44 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-content {
+    padding: 20px;
+}
+#courses ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px
+}
